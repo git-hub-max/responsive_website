@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tasty Tales</title>
+    <script src="https://kit.fontawesome.com/8b8239c9d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--navigation-->
+    <div class="d1">
+        <nav>
+            <i class="fa-solid fa-t fa-bounce my-icon"></i>
+            <ul class="nav-bar">
+                <li class="nav-items">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-items">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="nav-items">
+                    <a href="tag.html">Tag</a>
+                </li>
+                <li class="nav-items">
+                    <a href="recipe.html">Recipes</a>
+                </li>
+                <li class="nav-items">
+                    <a href="contact.html">contact-us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- end of nav-->
+    
+    <!--main-->
+    <main class="page">
+        <section class="contact-container">
+            <article class="contact-info">
+                <h3>Want To Get In Touch With Tasty tales?</h3>
+                <p>We'd love to hear from you! Whether you have questions
+                     about recipes, want to share your own culinary stories,
+                      or just want to say hello, feel free to reach out.</p>
+                <ul style="text-decoration: dotted;">
+                    <li>Email us at: contact@tastytales.com</li>
+                    <li>Follow and message us on Instagram and Facebook</li>
+                </ul>
+                <p>We aim to respond within 1-2 business days. Your feedback 
+                    and stories help make The Tasty Tales even better!</p>
+                <p>Happy cooking and connecting!</p>
+            </article>
+            <article>
+                <form class="form contact-form">
+                    <!--single form row-->
+                    <div class="form-row">
+                        <label for="name" class="form-label">your name</label>
+                        <input type="text" name="name" id="name" class="form-input"/>
+
+                    </div>
+                    <!--end of single form row-->
+                    <!--single form row-->
+                    <div class="form-row">
+                        <label for="email" class="form-label">your email</label>
+                        <input type="email" name="email" id="name" class="form-input"/>
+
+                    </div>
+                    <!--end of single form row-->
+                    <!--single form row-->
+                    <div class="form-row">
+                        <label for="message" class="form-label">message</label>
+                        <input type="text" name="message" id="message" class="form-input"/>
+
+                    </div>
+                    <!--end of single form row-->
+                    <input type="submit" class="about-btn">
+                </form>
+            </article>
+        </section>
+        <section class="featured-recipes">
+            <h5 class="featured-title">Look At This Awesome Recipes</h5>
+            <!--recipes list-->
+            <div class="recipes-list">
+                <!--1single recipe-->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="recipe-1.jpeg" alt="food" class="img recipe-img"/>
+                    <h5>carne asada</h5>
+                    <p>prep : 15min | cook : 5min</p>
+                </a>
+                <!--end of single recipe-->
+                <!--2single recipe-->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="recipe-2.jpeg" alt="food" class="img recipe-img"/>
+                    <h5>greek ribs</h5>
+                    <p>prep : 15min | cook : 5min</p>
+                </a>
+                <!--end of single recipe-->
+                <!--3single recipe-->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="recipe-3.jpeg" alt="food" class="img recipe-img"/>
+                    <h5>vegetable soup</h5>
+                    <p>prep : 15min | cook : 5min</p>
+                </a>
+                <!--end of single recipe-->
+                
+            <!--end of single recipe-->
+            </div>
+            
+            <!--end of recipes list-->
+        </section>
+    </main>
+    <!--end of main-->
+    <!--footer-->
+    <footer class="page-footer">
+        <p>&copy;<span id="date">2025</span>
+        <span class="footer-logo">
+            tastytales</span></p>
+    </footer>
+    
+</body>
+</html>
